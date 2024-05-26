@@ -1,0 +1,28 @@
+{
+  "name": "node-kafka",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo of integrating kafka in node.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atulkrsngh/node-kafka.git"
+  },
+  "keywords": [
+    "kafka",
+    "node"
+  ],
+  "author": "Atul Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
