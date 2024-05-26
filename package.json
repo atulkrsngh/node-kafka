@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/atulkrsngh/node-kafka.git"
+    "url": "git+https://github.com/atulkrsngh/node-kafka.git"
   },
   "keywords": [
     "kafka",
@@ -18,6 +18,9 @@
   ],
   "author": "Atul Kumar",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atulkrsngh/node-kafka/issues"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "kafkajs": "^2.2.4"
